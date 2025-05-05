@@ -1,0 +1,31 @@
+/* style.css */
+body {
+  background-color: #f0f8ff;
+  background-image: url('https://picsum.photos/1600/900');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(0, 0, 0); /* RGB color */
+  background-color: rgb(220, 220, 220); /* light gray background */
+}
+
+.dashed-border {
+  border: 3px dashed rgb(255, 0, 0); /* Red dashed border */
+}
+
+.solid-border {
+  border: 5px solid rgb(0, 0, 255); /* Blue solid border */
+}
+
+.double-border {
+  border: 6px double rgb(0, 128, 0); /* Green double border */
+}

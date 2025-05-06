@@ -36,6 +36,10 @@ body {
   border: 6px groove rgb(255, 165, 0); /* orange groove border */
 }
 
+.ridge-border {
+  border: 6px ridge rgb(0, 0, 128); /* navy-blue ridge border */
+}
+
 .inset-border {
   border: 6px inset rgb(0, 0, 0); /* black inset border */
 }
@@ -44,9 +48,7 @@ body {
   border: 6px outset rgb(160, 32, 240); /* purple outset border */
 }
 
-.ridge-border {
-  border: 6px ridge rgb(0, 0, 128); /* navy-blue ridge border */
-}
+
 .none-border {
   border: 6px none rgb(150, 75, 0); /* brown none border */
 }
